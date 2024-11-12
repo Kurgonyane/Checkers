@@ -14,3 +14,5 @@ jobs:
         run: uv run ruff check --output-format=github .
       - name: Run Ruff Format
         run: uv run ruff format .
+      - name: Run Tests
+        run: .tests\test_example.py
