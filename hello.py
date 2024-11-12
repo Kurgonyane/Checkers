@@ -1,5 +1,8 @@
+import math
+
+
 def main():
-    print("Hello from checkers!")
+    print("Hello from checkers!"      )
 
 
 if __name__ == "__main__":
